@@ -1,0 +1,8 @@
+#game-box {
+    margin-top: 100px;
+    margin: auto;
+    width: 700px;
+    height: 700px;
+    background: aqua;
+    border: 2px solid black;
+}
