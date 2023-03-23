@@ -1,8 +1,19 @@
-#game-box {
-    margin-top: 100px;
-    margin: auto;
-    width: 700px;
-    height: 700px;
-    background: aqua;
-    border: 2px solid black;
+#sky {
+    height: 750px;
+    background-image: url(https://www.shutterstock.com/shutterstock/videos/1040901965/thumb/1.jpg?ip=x480);
+
 }
+
+#grass{
+    height: 100px;
+    background-image: url(https://img.freepik.com/premium-vector/green-japanese-paper-japanese-pattern_180401-2555.jpg);
+
+}
+
+#dirt{
+    height: 214px;
+    background-image: url(https://i.pinimg.com/originals/c0/ed/73/c0ed731d54377705ecd06db9ef7bbabc.jpg);
+
+}
+
+
