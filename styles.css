@@ -1,7 +1,11 @@
+#game-window{
+    width: 1904px;
+    height: 100%;
+}
+
 #sky {
     height: 750px;
-    background-image: url(https://www.shutterstock.com/shutterstock/videos/1040901965/thumb/1.jpg?ip=x480);
-
+    background-color: aqua ;
 }
 
 #grass{
@@ -16,4 +20,25 @@
 
 }
 
+#pipes{
+    width: 100px;
+    height: 750px;
+    background-color: green;
+    position: relative;
+    left: 1800px;
+    animation: block 5s infinite linear;
+}
+@keyframes block{
+    0%{left:1904px}
+    100%{left:-100px}
+}
 
+#gap {
+    width: 100px;
+    height: 200px;
+    background-color: aqua;
+    position: relative;
+    left: 1800px;
+    top: -500px;
+    animation: block 5s infinite linear;
+}
