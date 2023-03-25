@@ -1,3 +1,7 @@
+body{
+    margin: 0px;
+}
+
 #game-window{
     width: 1904px;
     height: 1000px;
@@ -45,7 +49,7 @@
 #chara{
     width: 150px;
     height: 100px;
-    background-image: url("https://media.tenor.com/X9uBI8srOGUAAAAC/wilko-wilko-wilkes.gif");
+    background-image: url("https://media.tenor.com/NOErwLu4R5AAAAAM/flappy-wings.gif");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
