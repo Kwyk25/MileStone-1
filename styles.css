@@ -47,13 +47,15 @@ body{
 }
 
 #chara{
-    width: 150px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
+    /* background-color: blueviolet; */
     background-image: url("https://media.tenor.com/NOErwLu4R5AAAAAM/flappy-wings.gif");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     position: absolute;
     top: 200px;
+    left: 100px; 
     border-radius: 35px;
 }
