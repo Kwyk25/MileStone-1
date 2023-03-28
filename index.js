@@ -18,7 +18,7 @@ setInterval(function(){
     var pipesLeft = parseInt(window.getComputedStyle(pipes).getPropertyValue("left"));
     var gapTop = parseInt(window.getComputedStyle(gap).getPropertyValue("top"));
     var cTop = -(500-charaTop);
-    if((charaTop>659)||((pipesLeft<188)&&(pipesLeft>-50)&&((cTop<gapTop)||(cTop>gapTop+150)))){
+    if((charaTop>659)||((pipesLeft<188)&&(pipesLeft>-70)&&((cTop<gapTop+170)||(cTop>gapTop+360)))){
         alert("Game over. Score: "+(counter -1));
         chara.style.top = 200 + "px";
         counter=0;
