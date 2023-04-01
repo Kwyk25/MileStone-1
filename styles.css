@@ -1,5 +1,6 @@
 body{
     margin: 0px;
+    height: 1904;
 }
 
 #game-window{
@@ -10,16 +11,12 @@ body{
 #sky {
     height: 750px;
     background-color: aqua;
+    
 }
 
-#grass{
-    height: 100px;
-    background-image: url(https://img.freepik.com/premium-vector/green-japanese-paper-japanese-pattern_180401-2555.jpg);
-}
-
-#dirt{
-    height: 100px;
-    background-image: url(https://i.pinimg.com/originals/c0/ed/73/c0ed731d54377705ecd06db9ef7bbabc.jpg);
+@keyframes pipes-gap1{
+    0%{left:2000px}
+    100%{left:-100px}
 }
 
 #pipes{
@@ -27,26 +24,26 @@ body{
     height: 750px;
     background-color: green;
     position: relative;
-    left: 1800px;
-    animation: block 5s infinite linear;
+    
+    animation: pipes-gap1 2s infinite linear;
 }
 
-@keyframes block{
-    0%{left:1904px}
-    100%{left:-100px}
-}
-
-#gap {
+#gap { 
+    padding: 0px;
+    margin: 0px;
     width: 100px;
     height: 200px;
     background-color: aqua;
     position: relative;
-    left: 1800px;
+    
     top: -500px;
-    animation: block 5s infinite linear;
+    animation: pipes-gap1 2s infinite linear;
+   
 }
 
 #chara{
+    padding: 0px;
+    margin: 0px;
     width: 90px;
     height: 90px;
     /* background-color: blueviolet; */
@@ -58,4 +55,14 @@ body{
     top: 200px;
     left: 100px; 
     border-radius: 35px;
+}
+
+#grass{
+    height: 100px;
+    background-image: url(https://img.freepik.com/premium-vector/green-japanese-paper-japanese-pattern_180401-2555.jpg);
+}
+
+#dirt{
+    height: 100px;
+    background-image: url(https://i.pinimg.com/originals/c0/ed/73/c0ed731d54377705ecd06db9ef7bbabc.jpg);
 }
