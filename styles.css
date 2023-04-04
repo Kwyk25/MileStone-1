@@ -11,7 +11,6 @@ body{
 #sky {
     height: 750px;
     background-color: aqua;
-    
 }
 
 @keyframes pipes-gap1{
@@ -20,12 +19,13 @@ body{
 }
 
 #pipes{
+    padding: 0px;
+    margin: 0px;
     width: 100px;
     height: 750px;
     background-color: green;
     position: relative;
-    
-    animation: pipes-gap1 2s infinite linear;
+    animation: pipes-gap1 3s infinite linear;
 }
 
 #gap { 
@@ -35,17 +35,15 @@ body{
     height: 200px;
     background-color: aqua;
     position: relative;
-    
     top: -500px;
-    animation: pipes-gap1 2s infinite linear;
-   
+    animation: pipes-gap1 3s infinite linear;
 }
 
 #chara{
     padding: 0px;
     margin: 0px;
-    width: 90px;
-    height: 90px;
+    width: 80px;
+    height: 60px;
     /* background-color: blueviolet; */
     background-image: url("https://media.tenor.com/NOErwLu4R5AAAAAM/flappy-wings.gif");
     background-size: cover;
@@ -54,7 +52,7 @@ body{
     position: absolute;
     top: 200px;
     left: 100px; 
-    border-radius: 35px;
+    
 }
 
 #grass{
