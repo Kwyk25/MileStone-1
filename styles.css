@@ -45,7 +45,7 @@ body{
     width: 80px;
     height: 60px;
     /* background-color: blueviolet; */
-    background-image: url("https://media.tenor.com/NOErwLu4R5AAAAAM/flappy-wings.gif");
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/fac4b84a-f2ba-4b67-8c2f-130230f54f3a/d93bpnj-208be415-a266-428e-9420-1405658d3e32.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2ZhYzRiODRhLWYyYmEtNGI2Ny04YzJmLTEzMDIzMGY1NGYzYVwvZDkzYnBuai0yMDhiZTQxNS1hMjY2LTQyOGUtOTQyMC0xNDA1NjU4ZDNlMzIuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.fw-psRaRfcdPiEwvUaB8evP2UNU6jhDwhPJO1wHGh_E");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -61,6 +61,23 @@ body{
 }
 
 #dirt{
-    height: 100px;
+    height: 130px;
     background-image: url(https://i.pinimg.com/originals/c0/ed/73/c0ed731d54377705ecd06db9ef7bbabc.jpg);
+}
+
+#block{
+    background-image: url(./img/bg.png);
+    width: 100%;
+    height: 1000px;
+}
+
+#button{
+    position: relative;
+    background-color: rgb(53, 141, 12);
+    height: 100px;
+    width: 200px;
+    margin-top: 400px;
+    margin-left: 850px;
+    font-size: xxx-large;
+    color: white;
 }
