@@ -28,14 +28,14 @@ setInterval(function(){
 },10);
 
 function jump(){
-    // var audio = new Audio("./audio/sfx_wing.mp3");
+    var audio = new Audio("./audio/sfx_wing.mp3");
     jumping = 1;
     let jumpCount = 0;
     var jumpInt = setInterval(function(){
         var charaTop = parseInt(window.getComputedStyle(chara).getPropertyValue("top"));
         if((charaTop>6)&&(jumpCount<15)){
             chara.style.top = (charaTop-6)+"px";
-            // audio.play();
+            audio.play();
         }
         if(jumpCount>20){
             clearInterval(jumpInt);
